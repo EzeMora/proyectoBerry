@@ -1,0 +1,79 @@
+/* body */ 
+body{ background-color: rgba(127, 100, 141, 0.534);
+    font-family: 'Cairo', sans-serif;
+margin: 0;padding: 0;}
+
+/* header*/
+.logo_berry{width: 100px; height: 100px;
+    position: fixed;top: 2px; right: 0px;}
+ 
+    header{background-color: black;
+    margin: 0;}
+.bienvenida{
+color: rgb(98, 84, 148);display: flex;justify-content: center;align-items: center;
+font-size: 50px;margin-top: 0%;} 
+
+nav  ul li {display: inline;; justify-content: center; align-items: center; margin: 85px;}
+
+
+ [href] {color: rgb(246, 245, 246); 
+font-size: 30px; }
+
+    
+/* ofertas de la semana */
+
+.oferta{ height: 250px; width: 330px;
+border-radius: 10px;}
+
+.oferta_titulo{
+background-color: rgba(0, 0, 139, 0.281)
+;color:rgb(109, 92, 170) ;
+font-size: 30px;height: 10px;}
+
+/* NOTICIAS */ 
+    .noticias_titulo{
+    background-color: rgba(0, 0, 139, 0.281)
+    ;color:rgb(109, 92, 170) ;
+    font-size: 30px;height: 10px;}
+ 
+    .noticias_titulo--chico{
+    color:rgb(109, 92, 170);font-size: 20px;}
+    
+    .noticia_parrafo{font-size: 18px;
+    color:rgb(16, 8, 46);background-color: rgba(218, 216, 216, 0.315)}
+
+    .imagen_apple{width:;height: 300px;
+    border-radius: 10px;}
+    .imagen_samsung{width: 500px;height: 300px;
+    border-radius: 10px;}
+
+    /* FOOTER */
+    footer { background-color:rgba(50, 13, 68, 0.24) ;}
+    .pie
+       {color:rgba(64, 48, 122, 0.74);margin: 30px;
+    text-align: center;}
+
+     
+     
+        /* NOSOTROS */
+        .nosotros{
+            color:rgb(109, 92, 170)}
+        .direccion__imagen { width: 350px;height: 350px;
+        border-radius: 15px;}
+        .direccion{
+            color:rgb(109, 92, 170); }
+
+        /* PEDIDOS */
+        h2{color: rgb(128, 65, 128); font-size: 30px;
+        }
+        p{font-size: 20px;color: rgb(15, 15, 15);}
+
+        /* SERVICIO TECNICO */
+.formulario{text-align: center;}
+        
+        /* VENTAS */
+        
+
+.imagen_ventas {height: 250px;height: 250px; border-radius: 15px;}
+#titulo-venta{color: darkviolet;}
+
