@@ -1,6 +1,7 @@
 /* body */ 
-body{ background-color: rgba(127, 100, 141, 0.534);
-    font-family: 'Cairo', sans-serif;
+body{ background-image: url(../berryMobile/multimedia/celula6.jpg);
+;background-size: cover;background-attachment: fixed;
+font-family: 'Montserrat', sans-serif;
 margin: 0;padding: 0;}
 
 /* header*/
@@ -8,7 +9,7 @@ margin: 0;padding: 0;}
     position: fixed;top: 2px; right: 0px;}
  
     header{background-color: black;
-    margin: 0;}
+    margin:0%;padding: 0%;}
 .bienvenida{
 color: rgb(98, 84, 148);display: flex;justify-content: center;align-items: center;
 font-size: 50px;margin-top: 0%;} 
@@ -40,7 +41,7 @@ font-size: 30px;height: 10px;}
     color:rgb(109, 92, 170);font-size: 20px;}
     
     .noticia_parrafo{font-size: 18px;
-    color:rgb(16, 8, 46);background-color: rgba(218, 216, 216, 0.315)}
+    color:rgba(7, 3, 26, 0.513);background-color: rgba(241, 238, 238, 0.253)}
 
     .imagen_apple{width:;height: 300px;
     border-radius: 10px;}
@@ -48,25 +49,24 @@ font-size: 30px;height: 10px;}
     border-radius: 10px;}
 
     /* FOOTER */
-    footer { background-color:rgba(50, 13, 68, 0.24) ;}
+    footer { background-color:rgba(30, 18, 36, 0.767) ;}
     .pie
-       {color:rgba(64, 48, 122, 0.74);margin: 30px;
+       {color:rgba(233, 230, 246, 0.74);margin: 30px;
     text-align: center;}
 
      
      
         /* NOSOTROS */
-        .nosotros{
-            color:rgb(109, 92, 170)}
-        .direccion__imagen { width: 350px;height: 350px;
+        .nosotros_parrafo{ color:rgba(7, 3, 26, 0.513);background-color: rgba(241, 238, 238, 0.253)}
+         .direccion__imagen { width: 350px;height: 350px;
         border-radius: 15px;}
-        .direccion{
-            color:rgb(109, 92, 170); }
+        .direccion{ color:rgba(7, 3, 26, 0.513);background-color: rgba(241, 238, 238, 0.253) }
+
 
         /* PEDIDOS */
-        h2{color: rgb(128, 65, 128); font-size: 30px;
+        h2{color: rgb(105, 53, 105); font-size: 30px;
         }
-        p{font-size: 20px;color: rgb(15, 15, 15);}
+        h3{font-size: 20px; color:rgba(7, 3, 26, 0.513);background-color: rgba(241, 238, 238, 0.253)}
 
         /* SERVICIO TECNICO */
 .formulario{text-align: center;}
