@@ -1,6 +1,6 @@
 /* body */ 
-body{ background-image: url(../berryMobile/multimedia/celula6.jpg);
-;background-size: cover;background-attachment: fixed;
+body{ background-image: linear-gradient(rgb(92, 4, 92), rgb(20, 12, 20) );
+;background-size: cover;
 font-family: 'Montserrat', sans-serif;
 margin: 0;padding: 0;}
 
@@ -14,7 +14,7 @@ margin: 0;padding: 0;}
 color: rgb(98, 84, 148);display: flex;justify-content: center;align-items: center;
 font-size: 50px;margin-top: 0%;} 
 
-nav  ul li {display: inline;; justify-content: center; align-items: center; margin: 85px;}
+nav  ul li {display: inline; justify-content: center; align-items: center; margin: 50px;}
 
 
  [href] {color: rgb(246, 245, 246); 
@@ -24,7 +24,8 @@ font-size: 30px; }
 /* ofertas de la semana */
 
 .oferta{ height: 250px; width: 330px;
-border-radius: 10px;}
+border-radius: 10px;transition:width 1s;height:1s; transform:1s }
+.oferta:hover{height: 270px;width: 302px;}
 
 .oferta_titulo{
 background-color: rgba(0, 0, 139, 0.281)
@@ -43,8 +44,11 @@ font-size: 30px;height: 10px;}
     .noticia_parrafo{font-size: 18px;
     color:rgba(7, 3, 26, 0.513);background-color: rgba(241, 238, 238, 0.253)}
 
-    .imagen_apple{width:;height: 300px;
-    border-radius: 10px;}
+    .imagen_apple{; width:300px;height: 300px;
+    border-radius: 10px; transition:width 1s;height:1s; transform:1s }
+
+    .imagen_apple:hover {height: 302px;width: 302px;}
+  
     .imagen_samsung{width: 500px;height: 300px;
     border-radius: 10px;}
 
@@ -73,7 +77,28 @@ font-size: 30px;height: 10px;}
         
         /* VENTAS */
         
+        .imagenes--conteiner {
+            display: grid;
+            grid-template-columns:repeat(auto-fill,150px); 
+            grid-auto-rows:300px ;
+            column-gap: 10px;
+            row-gap: 10px;
+             padding: 20px;
+             grid-auto-flow: dense ;
+    }
+.imagenes--conteiner :hover{height:98%;width: 99%;}
+      
+.imagen_ventas {width: 98%;
+height: 95%;
+object-fit: cover;} 
+ 
+.item1{grid-column:span 3 }
+.item2{grid-column :span 3}
+.item3{grid-row:2}
+.item4{grid-column:span 8;}
+.item5{grid-auto-rows: ;}
 
-.imagen_ventas {height: 250px;height: 250px; border-radius: 15px;}
+
+
 #titulo-venta{color: darkviolet;}
 
