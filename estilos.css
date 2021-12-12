@@ -1,24 +1,41 @@
 /* body */ 
-body{ background-image: linear-gradient(rgb(92, 4, 92), rgb(20, 12, 20) );
+body{ background-image: linear-gradient(rgb(88, 30, 88), rgb(0, 0, 0) );
 ;background-size: cover;
 font-family: 'Montserrat', sans-serif;
-margin: 0;padding: 0;}
+margin: 0;
+padding: 0;}
 
 /* header*/
-.logo_berry{width: 100px; height: 100px;
-    position: fixed;top: 2px; right: 0px;}
+.logo_berry{width: 100px;
+     height: 100px;
+    position: fixed;
+    top: 2px; 
+    right: 0px;}
  
-    header{background-color: black;
-    margin:0%;padding: 0%;}
-.bienvenida{
-color: rgb(98, 84, 148);display: flex;justify-content: center;align-items: center;
-font-size: 50px;margin-top: 0%;} 
+    header
+    {background-color: black;
+        height: 250px;
+    margin:0%;
+    padding: 0%;}
 
-nav  ul li {display: inline; justify-content: center; align-items: center; margin: 50px;}
+  .bienvenida
+{color: rgb(42, 13, 146);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 60px;
+margin-top: 0%;} 
 
+ul li
+{display: inline;
+justify-content: center;
+align-items: center;
+margin-left:80px;}
 
- [href] {color: rgb(246, 245, 246); 
-font-size: 30px; }
+[href] 
+{color: rgb(246, 245, 246); 
+font-size: 35px;
+text-decoration: none;}
 
     
 /* ofertas de la semana */
@@ -27,76 +44,133 @@ font-size: 30px; }
 border-radius: 10px;transition:width 1s;height:1s; transform:1s }
 .oferta:hover{height: 270px;width: 302px;}
 
-.oferta_titulo{
+.oferta_titulo 
+{text-align: center;
 background-color: rgba(0, 0, 139, 0.281)
 ;color:rgb(109, 92, 170) ;
-font-size: 30px;height: 10px;}
+font-size: 30px; 
+height: 5px;}
 
-/* NOTICIAS */ 
+  /* NOTICIAS */ 
     .noticias_titulo{
     background-color: rgba(0, 0, 139, 0.281)
     ;color:rgb(109, 92, 170) ;
-    font-size: 30px;height: 10px;}
+    font-size: 30px;height: 5px;
+    text-align: center;}
  
     .noticias_titulo--chico{
-    color:rgb(109, 92, 170);font-size: 20px;}
+    color:rgb(109, 92, 170);
+    font-size: 25px;
+    text-align: center}
     
-    .noticia_parrafo{font-size: 18px;
-    color:rgba(7, 3, 26, 0.513);background-color: rgba(241, 238, 238, 0.253)}
+    .noticia_parrafo
+    {font-size: 20px;
+    color:rgba(228, 228, 231, 0.972);
+    background-color: rgba(27, 22, 29, 0.781);
+    text-align: center}
 
-    .imagen_apple{; width:300px;height: 300px;
-    border-radius: 10px; transition:width 1s;height:1s; transform:1s }
-
+    .imagen_apple
+    {margin-left: 500px; 
+    width:300px;
+    height: 300px;
+    border-radius: 10px;
+    transition:width 1s;height:1s; transform:1s; }
     .imagen_apple:hover {height: 302px;width: 302px;}
   
-    .imagen_samsung{width: 500px;height: 300px;
+    .imagen_samsung
+    { margin-left: 400px;
+    width: 500px;
+    height: 350px;
     border-radius: 10px;}
 
     /* FOOTER */
     footer { background-color:rgba(30, 18, 36, 0.767) ;}
     .pie
-       {color:rgba(233, 230, 246, 0.74);margin: 30px;
-    text-align: center;}
+        {color:rgba(233, 230, 246, 0.74);
+        margin: 30px;
+        text-align: center;}
 
      
      
         /* NOSOTROS */
-        .nosotros_parrafo{ color:rgba(7, 3, 26, 0.513);background-color: rgba(241, 238, 238, 0.253)}
-         .direccion__imagen { width: 350px;height: 350px;
-        border-radius: 15px;}
-        .direccion{ color:rgba(7, 3, 26, 0.513);background-color: rgba(241, 238, 238, 0.253) }
+ .nosotros_parrafo
+{ font-size: 20px;
+color:rgba(228, 228, 231, 0.972);
+background-color: rgba(27, 22, 29, 0.781);
+text-align: center}
+
+.mapa_ubicacion
+{text-align: center;
+margin:80px;}
 
 
         /* PEDIDOS */
-        h2{color: rgb(105, 53, 105); font-size: 30px;
-        }
-        h3{font-size: 20px; color:rgba(7, 3, 26, 0.513);background-color: rgba(241, 238, 238, 0.253)}
+h3
+{color: rgb(105, 53, 105);
+font-size: 30px;
+text-align: center;}
+
+p{font-size: 20px;
+color:rgba(228, 228, 231, 0.972);
+background-color: rgba(27, 22, 29, 0.781)
+text-align: center}
 
         /* SERVICIO TECNICO */
-.formulario{text-align: center;}
-        
+
+.formulario_registro
+{text-align: center;
+width: 300px;height: 400px;
+background-color: rgb(16, 16, 70);
+margin-top: 30px;
+border-radius: 8px;
+margin-left:510px;}
+
+.titulo_formulario
+{font-size: 20px;
+color:rgba(228, 228, 231, 0.829);}
+
+.controles
+{width: 250px;height: 30px; 
+background-color:rgba(27, 22, 29, 0.781);
+padding: 08px;
+border-radius: 10px;
+margin-bottom: 8px;
+ border:1px solid rgb(16, 16, 70);
+font-size: 16px;}
+
+.boton_enviar
+{width: 250px;height:25px;
+background-color: rgb(82, 82, 223);
+font-size: 16px;
+color: beige;
+border-radius: 8px;
+margin:20px;}    
+
+
         /* VENTAS */
         
-        .imagenes--conteiner {
+  .imagenes--conteiner {
             display: grid;
             grid-template-columns:repeat(auto-fill,150px); 
             grid-auto-rows:300px ;
-            column-gap: 10px;
+            column-gap: 16px;
             row-gap: 10px;
-             padding: 20px;
-             grid-auto-flow: dense ;
-    }
-.imagenes--conteiner :hover{height:98%;width: 99%;}
-      
-.imagen_ventas {width: 98%;
+            padding: 20px;
+            grid-auto-flow: dense;}
+
+.imagenes--conteiner 
+:hover{height:98%;width: 99%;}
+
+.imagen_ventas
+ {width: 98%;
 height: 95%;
 object-fit: cover;} 
- 
+
 .item1{grid-column:span 3 }
 .item2{grid-column :span 3}
 .item3{grid-row:2}
 .item4{grid-column:span 8;}
-.item5{grid-auto-rows: ;}
+.item5{ grid-rows:2}
 
 
 
