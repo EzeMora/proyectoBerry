@@ -5,39 +5,46 @@ background-blend-mode: soft-light;
 background-size: cover;
 ;
 font-family: 'Montserrat', sans-serif;
-margin:auto;
-padding: auto;}
+margin:0;
+padding: 2px;}
 
 /* header*/
 .logo_berry
-{width: 100px;
-height: 100px;
-position: fixed;
-top: 2px; 
-right: 0px;}
+{width: 50px;
+height: 50px;
+border-radius: 50px;
+}
+.logo_facebook{width: 30px;
+        height: 30px;}
 
-header
-{background-color: black;
-height: 200px;
-margin-bottom:80px;
-padding:auto;}
+
+
 
 .bienvenida
 {color: rgb(42, 13, 146);
+background-color: rgba(0, 0, 0, 0.212);
+
 display: flex;
 justify-content: center;
 align-items: center;
-font-size: 100px;
+font-size: 90px;
 margin-top: 0%;} 
 
-ul li
-{display: inline;
-margin-left:20px;}
+#navbarNav{margin: 1px;
+        padding-top: 1px;
+}
 
-[href] 
-{color: rgb(39, 32, 39); 
-font-size: 25px;
-text-decoration: none;}
+
+#carouselExampleIndicators{
+        width: 300px;
+        height: 250px;
+        margin-left: 550px;
+        margin-bottom: 1px;
+        display: flex;
+justify-content: center;
+align-items: center;
+}
+
 
 
 /* ofertas de la semana */
@@ -56,15 +63,15 @@ transform:05s }
 .oferta_titulo 
 {text-align:center
 ;color:rgb(109, 92, 170) ;
-font-size: 80px; 
+font-size: 70px; 
 height: 5px;
-margin-bottom: 80px;
-margin-top: 5%;}
+margin-bottom: 110px;
+margin-top: 1%;}
 
   /* NOTICIAS */ 
 .noticias_titulo{
-;color:#956f97;
-margin: 50px;
+color:#956f97;
+margin-top: 100px;
 margin-bottom: 80px;
 font-size: 50px;
 height: 5px;
@@ -80,7 +87,8 @@ text-align: center}
 {font-size: 20px;
 color:rgba(228, 228, 231, 0.972);
 background-color: rgba(27, 22, 29, 0.781);
-text-align: center}
+text-align: center;
+padding: 10px;}
 
 .imagen_apple
 {margin-left: 500px; 
@@ -100,7 +108,7 @@ border-radius: 10px;}
     /* FOOTER */
 footer
 .pie
-{color:#956f97;
+{color:rgb(42, 13, 146);
 margin: 30px;
 height:20px;
 text-align: center;}
